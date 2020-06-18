@@ -72,17 +72,20 @@ body {
 }
 
 .header-box {
-  display: flex;
   margin: 10% auto;
   background-color: pink;
   width: 50%;
-  height: 50vh;
-  align-items: center;
-  justify-content: center;
+  border-radius: 5px;
 }
 
 h1 {
   background-color: yellow;
+  text-align: center;
+}
+
+.tech-list {
+  text-align: center;
+  font-size: 3rem;
 }
 
 @media (max-width: 800px) {
