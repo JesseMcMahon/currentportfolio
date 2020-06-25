@@ -148,10 +148,11 @@ body {
 
 .card-body {
   display: flex;
-  flex-direction: column;
-  align-items: start;
-  padding: 20px;
+  align-items: center;
+  justify-content: center;
+
   min-height: 250px;
+  font-size: 1.8em;
 }
 
 .tag {
