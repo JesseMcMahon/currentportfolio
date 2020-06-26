@@ -15,7 +15,6 @@ body {
   position: relative;
   justify-content: space-between;
   align-items: center;
-  /* background-color: #333; */
   color: #000;
   border-bottom: 1px solid black;
 }
@@ -39,6 +38,10 @@ body {
 
 .navbar-links li {
   list-style: none;
+}
+
+.navbar-links li:hover {
+  border-top: 1px solid #333;
 }
 
 .navbar-links li a {
@@ -104,6 +107,7 @@ body {
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
 }
 
 .card {
@@ -112,7 +116,7 @@ body {
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   width: 400px;
-  margin: 2em;
+  margin-top: 20px;
 }
 
 .card-header {
