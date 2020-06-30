@@ -10,6 +10,15 @@ body {
   margin: 0;
 }
 
+strong {
+  color: #59ffac;
+}
+
+/* strong:last-of-type {
+  border: 2px solid white;
+  padding: 5px;
+} */
+
 .navbar {
   display: flex;
   position: relative;
@@ -170,11 +179,14 @@ body {
   justify-content: center;
   text-align: center;
   padding: 0 20px;
+  background-image: url("https://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .showcase h1 {
-  font-family: "Bungee Outline", cursive;
-  font-weight: 300;
+  /* font-family: "Bungee Outline", cursive; */
+  font-weight: 100;
   font-size: 70px;
   line-height: 1.2;
   margin-bottom: 15px;
@@ -218,7 +230,7 @@ video {
 
 .content {
   z-index: 10;
-  color: white;
+  color: #fff;
 }
 
 .btn {
