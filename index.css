@@ -5,7 +5,7 @@
 
 body {
   background-color: #f7f8fc;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
   height: 100vh;
   margin: 0;
 }
@@ -185,7 +185,7 @@ strong {
 }
 
 .showcase h1 {
-  /* font-family: "Bungee Outline", cursive; */
+  font-family: "Crimson Text", serif;
   font-weight: 100;
   font-size: 70px;
   line-height: 1.2;
@@ -236,8 +236,9 @@ video {
 .btn {
   display: inline-block;
   padding: 10px 30px;
-  background: #ad3728;
-  color: #fff;
+  /* background: #ad3728; */
+  background: #fff;
+  color: #000;
   /* border: 1px solid #000; */
   border-radius: 5px;
   margin-top: 25px;
