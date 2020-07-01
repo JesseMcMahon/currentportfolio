@@ -21,23 +21,27 @@ span {
 }
 
 .skill {
-  border-radius: 3px;
+  border-radius: 50px;
   width: 250px;
-  height: 300px;
+  height: 250px;
   text-align: center;
-  margin-top: 2rem;
-  background-color: #111;
-  color: #fff;
+  margin-top: 1rem;
 }
 
 .skill:hover {
-  background-color: #fff;
-  color: #111;
-  border: 2px solid #59ffac;
+  background-color: #333;
 }
 
 ion-icon {
   font-size: 15rem;
+}
+
+.iconify {
+  font-size: 14.3rem;
+}
+
+.redux {
+  color: #6a0dad;
 }
 
 .javascript {
@@ -203,7 +207,7 @@ a {
 
   .skill {
     width: 450px;
-    height: 400px;
+    height: 350px;
   }
 
   ion-icon {
