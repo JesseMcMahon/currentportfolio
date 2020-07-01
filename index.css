@@ -28,6 +28,12 @@ h3 {
   margin-top: 60px;
 }
 
+h4 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 100;
+}
+
 .skills-grid {
   display: grid;
   max-width: 70%;
@@ -94,7 +100,7 @@ ion-icon {
 
 .container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   justify-items: center;
 }
 
@@ -103,7 +109,7 @@ ion-icon {
   border-radius: 10px;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  width: 400px;
+  width: 800px;
   margin-top: 20px;
 }
 
@@ -111,13 +117,26 @@ ion-icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
-  font-size: 2em;
-  color: #000;
+  height: 400px;
+  border-bottom: 1px solid black;
 }
 
-.new-background {
-  background: #59ffac;
+.shop {
+  background-image: url(shop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.stock {
+  background-image: url(stock.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.news-app {
+  background-image: url(newsapp.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .card-body {
