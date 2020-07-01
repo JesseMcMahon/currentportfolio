@@ -7,6 +7,7 @@ body {
   font-family: "Work Sans", sans-serif;
   height: 100vh;
   margin: 0;
+  background-color: #ccc;
 }
 
 span {
@@ -14,30 +15,39 @@ span {
   letter-spacing: 3px;
 }
 
+img {
+  height: 50%;
+  width: 50%;
+  color: white;
+}
+
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   justify-items: center;
+  background-color: #333;
+  border-radius: 25px;
+  margin: 2rem;
 }
 
 .skill {
-  border-radius: 50px;
-  width: 250px;
-  height: 250px;
+  width: 220px;
+  height: 220px;
   text-align: center;
-  margin-top: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
 }
 
 .skill:hover {
-  background-color: #333;
+  background-color: #fff;
 }
 
 ion-icon {
-  font-size: 15rem;
+  font-size: 13.5rem;
 }
 
 .iconify {
-  font-size: 14.3rem;
+  font-size: 12.8rem;
 }
 
 .redux {
@@ -62,6 +72,18 @@ ion-icon {
 
 .sass {
   color: #cc6699;
+}
+
+.node {
+  color: #68a063;
+}
+
+.github {
+  color: #ffd33d;
+}
+
+.mongodb {
+  color: #3fa037;
 }
 /* CARDS */
 
@@ -188,13 +210,13 @@ a {
   }
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 1040px) {
   .skills-grid {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 810px) {
   .skills-grid {
     grid-template-columns: repeat(2, 1fr);
   }
