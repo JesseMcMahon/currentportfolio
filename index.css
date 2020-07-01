@@ -7,7 +7,6 @@ body {
   font-family: "Work Sans", sans-serif;
   height: 100vh;
   margin: 0;
-  background-color: #ccc;
 }
 
 span {
@@ -23,16 +22,14 @@ img {
 
 .skills-grid {
   display: grid;
+  max-width: 70%;
   grid-template-columns: repeat(5, 1fr);
   justify-items: center;
-  background-color: #333;
   border-radius: 25px;
-  margin: 2rem;
+  margin: auto;
 }
 
 .skill {
-  width: 220px;
-  height: 220px;
   text-align: center;
   margin: 1rem;
   border-radius: 5px;
@@ -204,35 +201,35 @@ a {
   text-decoration: none;
 }
 
-@media (max-width: 1290px) {
+@media (max-width: 1760px) {
   .skills-grid {
     grid-template-columns: repeat(4, 1fr);
   }
 }
 
-@media (max-width: 1040px) {
+@media (max-width: 1420px) {
   .skills-grid {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-@media (max-width: 810px) {
+@media (max-width: 1060px) {
   .skills-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 740px) {
   .skills-grid {
     grid-template-columns: 1fr;
   }
 
   .skill {
-    width: 450px;
+    width: 350px;
     height: 350px;
   }
 
   ion-icon {
-    font-size: 19rem;
+    font-size: 17rem;
   }
 }
