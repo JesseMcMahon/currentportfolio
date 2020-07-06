@@ -111,6 +111,7 @@ ion-icon {
   overflow: hidden;
   width: 800px;
   margin-top: 20px;
+  border: 1px solid black;
 }
 
 .card-header {
@@ -141,10 +142,16 @@ ion-icon {
 
 .card-body {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 250px;
   font-size: 1.6em;
+  text-align: center;
+}
+
+.project-description {
+  padding: 0 5%;
 }
 
 @media (max-width: 1640px) {
