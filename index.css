@@ -24,6 +24,10 @@ a:visited {
   color: #fff;
 }
 
+.dark {
+  color: #000;
+}
+
 span {
   color: #59ffac;
   letter-spacing: 3px;
@@ -165,7 +169,8 @@ ion-icon {
   text-align: center;
 }
 
-.project-description {
+.project-description,
+.built-with {
   padding: 0 5%;
 }
 
