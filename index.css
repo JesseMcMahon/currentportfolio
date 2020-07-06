@@ -24,6 +24,22 @@ a:visited {
   color: #fff;
 }
 
+.github-sm:hover {
+  color: #ffd33d;
+}
+
+.linkedin-sm:hover {
+  color: #0e76a8;
+}
+
+.twitter-sm:hover {
+  color: #1da1f2;
+}
+
+.medium-sm:hover {
+  color: #66cdaa;
+}
+
 .dark {
   color: #000;
 }
