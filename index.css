@@ -9,6 +9,21 @@ body {
   margin: 0;
 }
 
+a,
+a:visited {
+  text-decoration: none;
+}
+
+.social-links {
+  margin-top: 5%;
+}
+
+.small-icon {
+  font-size: 4em;
+  padding: 0.2em;
+  color: #fff;
+}
+
 span {
   color: #59ffac;
   letter-spacing: 3px;
