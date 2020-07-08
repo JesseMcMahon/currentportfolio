@@ -48,6 +48,10 @@ a:visited {
   color: #000;
 }
 
+.dark:hover {
+  color: #ffd33d;
+}
+
 span {
   color: #59ffac;
   letter-spacing: 3px;
