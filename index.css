@@ -283,13 +283,13 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   height: 200px;
-  font-weight: 100;
 }
 
 .copyright {
   margin: auto;
   padding-top: 100px;
   color: #59ffac;
+  font-weight: 100;
 }
 
 @media (max-width: 1760px) {
