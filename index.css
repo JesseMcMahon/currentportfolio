@@ -274,6 +274,19 @@ a {
   text-decoration: none;
 }
 
+footer {
+  background-image: url("https://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+.copyright {
+  margin: auto;
+  padding-top: 100px;
+  color: #59ffac;
+}
+
 @media (max-width: 1760px) {
   .skills-grid {
     grid-template-columns: repeat(4, 1fr);
