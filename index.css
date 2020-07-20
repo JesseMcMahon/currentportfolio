@@ -190,6 +190,12 @@ ion-icon {
   background-size: cover;
 }
 
+.gambling-app {
+  background-image: url(gambling.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .card-body {
   display: flex;
   flex-direction: column;
