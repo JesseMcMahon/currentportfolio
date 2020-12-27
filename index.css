@@ -60,18 +60,19 @@ span {
 h2 {
   font-weight: 100;
   letter-spacing: 1px;
-  color: #fcc617;
+  /* color: #fcc617; */
+  font-size: 1.5em;
 }
 
 h3 {
   text-align: center;
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: 100;
   letter-spacing: 2px;
   color: #fcc617;
   /* margin: 60px; */
   margin: 0;
-  padding: 6rem;
+  padding: 3rem;
 }
 
 h4 {
@@ -81,9 +82,7 @@ h4 {
 }
 
 .skills {
-  background-color: #111;
-  border-bottom: 2px solid #ccc;
-  border-top: 2px solid #ccc;
+  background-color: #fff;
 }
 
 .projects {
@@ -108,7 +107,7 @@ h4 {
 }
 
 ion-icon {
-  font-size: 13.5rem;
+  font-size: 13.2rem;
 }
 
 .iconify {
@@ -149,6 +148,10 @@ ion-icon {
 
 .mongodb {
   color: #3fa037;
+}
+
+.vue {
+  color: #42b883;
 }
 /* CARDS */
 
@@ -197,6 +200,12 @@ ion-icon {
 
 .gambling-app {
   background-image: url(gambling.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.todo-app {
+  background-image: url(todo.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -334,4 +343,31 @@ footer {
   ion-icon {
     font-size: 16rem;
   }
+}
+
+.form-title {
+  color: #b993d6;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.skill-grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.skill-container {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #ffffff;
+  /* width: 220px;
+  min-height: 600px; */
+  padding: 40px;
+  border-radius: 1.5em;
+  box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
 }
