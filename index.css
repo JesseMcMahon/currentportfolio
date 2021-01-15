@@ -3,6 +3,13 @@
   font-family: Raleway;
 }
 
+.copyright {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -60,7 +67,6 @@ span {
 h2 {
   font-weight: 100;
   letter-spacing: 1px;
-  /* color: #fcc617; */
   font-size: 1.5em;
 }
 
@@ -70,15 +76,8 @@ h3 {
   font-weight: 100;
   letter-spacing: 2px;
   color: #fcc617;
-  /* margin: 60px; */
   margin: 0;
   padding: 3rem;
-}
-
-h4 {
-  font-size: 2rem;
-  text-align: center;
-  font-weight: 100;
 }
 
 .skills {
@@ -86,7 +85,10 @@ h4 {
 }
 
 .projects {
-  background-color: #111;
+  background-image: url("https://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   border-bottom: 2px solid #ccc;
 }
 
@@ -140,73 +142,37 @@ ion-icon {
 /* CARDS */
 
 .container {
-  display: grid;
-  gap: 50px;
-  grid-template-columns: repeat(2, 1fr);
-  justify-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  width: 800px;
-  margin: 20px 0px;
+  width: 600px;
+  margin: 1rem;
   border: 1px solid black;
 }
 
 .card-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 400px;
   border-bottom: 1px solid black;
 }
 
-.shop {
-  background-image: url(shop.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.stock {
-  background-image: url(stock.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.news-app {
-  background-image: url(newsapp.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.gambling-app {
-  background-image: url(gambling.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.todo-app {
-  background-image: url(todo.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+.project-image {
+  width: 100%;
 }
 
 .card-body {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 250px;
-  font-size: 1.6em;
+  font-size: 1.3em;
   text-align: center;
-}
-
-.project-description,
-.built-with {
-  padding: 0 5%;
+  padding: 1rem;
 }
 
 @media (max-width: 1640px) {
@@ -252,9 +218,9 @@ ion-icon {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 0 20px;
   background-image: url("https://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
 }
 
@@ -270,6 +236,7 @@ ion-icon {
 .content {
   z-index: 10;
   color: #fff;
+  padding-bottom: 2rem;
 }
 
 .btn {
@@ -298,18 +265,10 @@ a {
   text-decoration: none;
 }
 
-footer {
-  background-image: url("https://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 200px;
-}
-
 .copyright {
-  margin: auto;
-  padding-top: 100px;
-  color: #59ffac;
+  margin: 5rem auto;
   font-weight: 100;
+  color: #59ffac;
 }
 
 .form-title {
