@@ -76,7 +76,8 @@ h3 {
   font-size: 3rem;
   font-weight: 100;
   letter-spacing: 2px;
-  color: #fcc617;
+  /* color: #fcc617; */
+  color: #59ffac;
   margin: 0;
   padding: 3rem;
 }
@@ -152,7 +153,7 @@ ion-icon {
   display: flex;
   flex-direction: column;
   background-color: #fff;
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   width: 600px;
@@ -161,11 +162,12 @@ ion-icon {
 }
 
 .card-header {
-  border-bottom: 1px solid black;
+  border-bottom: 10px solid #59ffac;
 }
 
 .project-image {
   width: 100%;
+  height: 100%;
 }
 
 .card-body {
@@ -173,14 +175,9 @@ ion-icon {
   flex-direction: column;
   font-size: 1.3em;
   text-align: center;
-  padding: 1rem;
-}
-
-@media (max-width: 1640px) {
-  .container {
-    grid-template-columns: 1fr;
-    justify-items: center;
-  }
+  padding: 2rem;
+  justify-content: space-between;
+  height: 100%;
 }
 
 @media (max-width: 820px) {
