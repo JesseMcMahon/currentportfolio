@@ -186,12 +186,17 @@ ion-icon {
     width: 400px;
   }
 
+  .skill-container {
+    width: 100%;
+    margin: 100px;
+  }
+
   ion-icon {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 
   .iconify {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 }
 
